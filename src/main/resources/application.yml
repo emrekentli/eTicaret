@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: weblessonone
+  datasource:
+    url: jdbc:mysql://localhost:3306/eticaret?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 1231233100e
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
